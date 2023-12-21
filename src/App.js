@@ -8,7 +8,7 @@ import Footer from "./components/Footer"
 
 function App() {
   return (
-    <div className="App">
+    <div className="App"> {/*remove this when apply tailwind css from index.html*/}
      <Navbar/>
      <Hero/>
      <Analytics/>
