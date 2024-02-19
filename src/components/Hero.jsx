@@ -1,5 +1,5 @@
 import React from "react";
-import { Typed } from "react-typed";
+import { ReactTyped } from "react-typed";
 
 function Hero() {
   return (
@@ -18,7 +18,7 @@ function Hero() {
           <p className="md:text-5xl sm:text-4xl text-xl font-bold py-4">
             Fast, flexible financing for
           </p>
-          <Typed
+          <ReactTyped
             className="md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2"
             strings={["BTB", "BTC", "SASS"]}
             typeSpeed={120}
