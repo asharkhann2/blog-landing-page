@@ -36,12 +36,18 @@ function Navbar(id) {
       >
         <h1 className="w-full text-3xl font-bold text-[#00df9a] m-4">React </h1>
         <ul className="uppercase p-4 ">
-          <li className="p-4 border-b  border-gray-600">Home</li>
-          <li className="p-4 border-b  border-gray-600">Company</li>
-          <li className="p-4 border-b  border-gray-600">Resources</li>
-          <li className="p-4 border-b border-gray-600">About</li>
-          <li className="p-4 border-b border-gray-600">About</li>
-          <li className="p-4">Contact</li>
+          <a href="#hero">
+            <li className="p-4 border-b border-gray-600">Home</li>
+          </a>
+          <a href="#plans">
+            <li className="p-4 border-b border-gray-600">Plans</li>
+          </a>
+          <a href="#about">
+            <li className="p-4 border-b border-gray-600">About</li>
+          </a>
+          <a href="#news-letter">
+            <li className="p-4 border-b border-gray-600">Subscribe</li>
+          </a>
         </ul>
       </div>
     </div>
