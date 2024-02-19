@@ -34,7 +34,7 @@ function Navbar(id) {
             : "fixed left-[-100%]"
         }
       >
-        <h1 className="w-full text-3xl font-bold text-[#00df9a] m-4">React </h1>
+        <h1 className="w-full text-3xl font-bold text-[#00df9a] m-4">REACT.</h1>
         <ul className="uppercase p-4 ">
           <a href="#hero">
             <li className="p-4 border-b border-gray-600">Home</li>
